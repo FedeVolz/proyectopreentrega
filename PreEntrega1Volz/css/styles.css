@@ -1,0 +1,390 @@
+/* CSS Reset Pag */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+/* Limpiando links */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*  Logo del Header */
+header div a img {
+    width: 150px;
+}
+
+/*  Configuracion Header */
+header {
+    display: flex;
+
+}
+
+h1 {
+    color: rgb(0, 128, 233);
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+h2 {
+    margin-left: 100px;
+}
+
+/*  Nav  */
+nav {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 700px;
+
+}
+
+nav ul {
+    display: flex;
+    margin: 25px;
+}
+
+/*  Imagen del Salon  */
+.fotoSalon {
+    width: 100%;
+    height: 100%;
+}
+
+/*  Botones de compra y venta */
+
+.vende {
+    position: relative;
+    top: -800px;
+    right: -800px;
+    width: 300px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    border-radius: 20px;
+    background-color: black;
+    padding: 5px;
+
+}
+
+.compra {
+    position: relative;
+    top: -800px;
+    right: -500px;
+    text-align: center;
+    width: 300px;
+    font-size: 40px;
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(9, 59, 223);
+    padding: 5px;
+}
+
+/*  Somos NRG Motors... */
+
+.introduccion {
+    margin-left: 00px;
+    margin-top: 30px;
+}
+
+.introduccion2 {
+    font-size: 20px;
+    margin-left: 450px;
+    margin-top: 30px;
+}
+
+/*  Ultimos ingresos  */
+.ultimosIngresos h2 {
+    margin: 55px;
+    margin-top: 150px;
+}
+
+/*  Tarjetas de Ultimos ingresos */
+.tarjetas {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    text-align: center;
+
+}
+
+.tarjetas__autos img {
+    width: 400px;
+    height: 300px;
+
+}
+
+div.tarjetas__autos {
+    /* width: 100%; */
+    background-color: rgb(45, 152, 240);
+    border: 2px solid black;
+    border-radius: 25px;
+    display: list-item;
+    padding: 10px;
+}
+.X12020{
+    margin-top: 50px;
+}
+.maserati{
+    margin-top: 50px;
+}
+.bmw220i{
+    margin-top: 50px;
+
+}
+.rangeRover{
+    margin-top: 50px;
+}
+
+/*  Boton Ver Stock  */
+.stock__btn {
+    padding: 5px;
+    color: black;
+    background-color: white;
+    margin-left: 920px;
+
+}
+
+/*  Comienzo Footer  */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    margin-top: 50px;
+    color: white;
+    background-color: black;
+
+}
+
+.location {
+    display: flex;
+}
+
+.location2 {
+    display: flex;
+}
+
+.location2 img {
+    height: 64px;
+}
+
+.km40 {
+    margin: 12px;
+    margin-top: 20px;
+}
+
+.phone {
+    display: flex;
+    margin-left: 12px;
+}
+
+h3.tel__tel {
+    margin-left: 12px;
+    margin-top: 15px;
+}
+
+.phone2 {
+    display: flex;
+}
+
+.tel {
+    display: flex;
+    margin-left: 12px;
+
+}
+
+div.telTom {
+    display: flex;
+}
+
+.telTom img {
+    margin-left: 12px;
+}
+
+.tortugas {
+    margin: 12px;
+    margin-top: 20px;
+}
+
+.tel2 {
+    display: flex;
+    margin: 12px;
+}
+
+.redes {
+    margin: 12px;
+    margin-top: 50px;
+}
+
+.mapa img {
+    margin-right: 200px;
+    width: 400px;
+    height: 325px;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+}
+
+
+
+/*  QUIENES SOMOS */
+main img {
+    width: 100%;
+}
+
+section.nosotros {
+    margin: 25px;
+    font-size: 25px;
+}
+
+section p {
+    margin: 45px;
+}
+
+
+
+
+
+/*  SUCURSALES */
+
+.ubicacion {
+    display: flex;
+    background-color: rgb(68, 161, 238);
+    margin: 50px;
+    padding: 50px;
+    border: 5px solid black;
+    border-radius: 50px;
+}
+
+section div img {
+    height: 400px;
+    width: 600px;
+}
+
+section div h2 {
+    text-align: center;
+}
+
+section div span {
+    margin-left: 520px;
+}
+
+span.tom {
+    margin-left: 490px;
+}
+
+p.tort {
+    margin-left: 100px;
+}
+
+
+
+
+
+/*  CONTACTO */
+
+h2.contacto{
+    font-size: 60px;
+    margin-top: 50px;
+}
+h3.servicioPersonalizado{
+    font-size: 30px;
+    color: rgb(0, 128, 233);
+    margin-left: 40px;
+}
+div.caja1{
+    margin-top: 100px;
+    margin-left: 50px;
+    border: 2px solid black;
+    width: 500px;
+    height: fit-content;
+    padding: 50px;
+}
+div.caja2{
+    position: relative;
+    top: -571px;
+    right: -600px;
+    margin-top: 100px;
+    margin-left: 50px;
+    border: 2px solid black;
+    width: 800px;
+    height: 471px;
+    padding: 50px;
+}
+
+/* .form {
+    display: inline-block;
+    margin: 5px 450px 0px;
+    border: 2px solid black;
+    padding: 0px 20px 20px 40px;
+    border-radius: 20px;
+    height: fit-content;
+
+
+}
+
+.form__img {
+    display: inline-block;
+    margin-left: 130px;
+    width: 100px;
+
+
+}
+
+.form__titulo {
+    display: inline-block;
+    font-size: 32px;
+    color: rgb(7, 126, 223);
+    margin-left: 25%;
+    text-decoration: overline;
+}
+
+.form__nya {
+    margin-top: 10px;
+}
+
+.form__email {
+    margin-top: 10px;
+}
+
+.form__email input {
+
+    margin-left: 114px;
+
+}
+
+.form__asunto {
+    margin-top: 10px;
+}
+
+.form__radio div {
+    display: inline-block;
+    position: relative;
+    margin-inline: 10px;
+    margin-block-end: 10px;
+    margin-top: 10px;
+}
+
+label {
+    font-family: 'Roboto',
+        sans-serif;
+    font-size: 20px;
+}
+
+.label {
+    font-size: 150%;
+}
+
+.submit {
+    margin-left: 160px;
+    margin-top: 10px;
+}
+
+.centrado {
+    margin-left: 70px;
+} */
